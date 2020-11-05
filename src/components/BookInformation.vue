@@ -91,7 +91,7 @@ export default {
 }
 .banner{
     position: absolute;
-    background-image:linear-gradient(to top,#f3f3f3,rgb(0,0,0,0)), url("https://img9.doubanio.com/view/ark_column_banner/orig/public/4.jpg");
+    background-image:linear-gradient(to top,#f3f3f3,rgb(0,0,0,0)), url("../assets/banner.jpg");
     top: 0;
     left: 0;
     z-index: -1;
