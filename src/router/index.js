@@ -10,11 +10,13 @@ export default new Router({
     {
       path: '/',
       name: 'BookList',
-      component: BookList
+      component: BookList,
+      meta: { title: '综合推荐' }
     },{
       path: '/BookInformation',
       name: 'BookInformation',
-      component: BookInformation
+      component: BookInformation,
+      meta: { title: '图书详情信息' }
     }
   ]
 })
